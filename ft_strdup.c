@@ -6,13 +6,13 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 16:40:54 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/17 12:33:44 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/08 15:47:09 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dest, char *src)
+static char	*ft_strcpy(char *dest, char *src)
 {
 	int	i;
 
