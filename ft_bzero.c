@@ -1,0 +1,36 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/10/04 14:37:03 by sgaspard          #+#    #+#             */
+/*   Updated: 2022/10/17 12:46:30 by sgaspard         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+void	ft_bzero(void *str, size_t n)
+{
+	unsigned char	*dest;
+
+	dest = str;
+	while (n-- > 0)
+		*dest++ = 0;
+}
+/*
+int main()
+{
+	char str[50];
+	strcpy(str, "Hello World!");
+	printf("%s\n", str);
+	ft_bzero(str, 2);
+	printf("%s", str);
+	strcpy(str, "Hello World!");
+	printf("%s\n", str);
+	bzero(str, 2);
+	printf("%s", str);
+	return (0);
+}*/
