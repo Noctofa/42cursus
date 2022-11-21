@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 12:28:34 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/25 13:52:26 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:48:09 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,3 @@ int	ft_memcmp(const void *str1, const void *str2, size_t n)
 	}
 	return (0);
 }
-/*
-int	main ()
-{
-	const void *str1 = "Hello";
-	const void *str2 = "Helloi";
-
-	printf("%d\n", ft_memcmp(str1, str2, 6));
-	return (0);
-}
-*/

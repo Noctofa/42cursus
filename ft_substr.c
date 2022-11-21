@@ -6,13 +6,11 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 14:08:26 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/25 16:41:07 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:37:50 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-#include <stdio.h>
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
@@ -33,9 +31,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(res, s + start, len + 1);
 	return (res);
 }
-/*
-int main(void)
-{
-	printf("[%s]\n", ft_substr("", 9, 1));
-}
-*/

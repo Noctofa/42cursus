@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 12:32:32 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/11/07 13:42:48 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:42:40 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 			n--;
 		}
 	}
-	else
+	else if (dst < src)
 	{
 		while (i < n)
 		{

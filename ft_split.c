@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 16:48:09 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/25 17:33:22 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:48:51 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,21 +98,3 @@ char	**ft_split(char const *s, char c)
 	tab[i] = NULL;
 	return (tab);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	char	s[] = "boiil";
-	char	c[] = 'u';
-	int		i;
-	char	**tab;
-	i = 0;
-	printf("%d\n", word_counter(s, c));
-	tab = ft_split(str, c);
-	while (tab[i] != 0)
-	{
-		printf("%p: %s\n", tab[i], tab[i]);
-		i++;
-	}
-	free(tab);
-}*/

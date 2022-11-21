@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 16:38:36 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/06 15:28:28 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:38:57 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main()
-{
-	printf("%d", ft_isprint('5'));
-	return(0);
-}*/

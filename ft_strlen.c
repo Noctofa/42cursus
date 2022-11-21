@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 11:20:58 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/13 16:19:46 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:46:56 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-/*
-int	main()
-{
-	printf("%zu", ft_strlen("hey"));
-	return (0);
-}*/

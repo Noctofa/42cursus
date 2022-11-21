@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/21 11:58:40 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/11/07 14:03:50 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:42:00 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,3 @@ char	*ft_itoa(int n)
 	}
 	return (str);
 }
-/*
-int	main(void)
-{
-	printf("%d", ft_itoa(-4521554));
-	return (0);
-}*/

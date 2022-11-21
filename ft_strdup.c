@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/10 16:40:54 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/11/08 15:47:09 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:44:10 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,3 @@ char	*ft_strdup(char *src)
 	ft_strcpy(dest, src);
 	return (dest);
 }
-/*
-int	main(void)
-{
-	printf("%s", strdup("Salut\n"));
-	printf("%s", ft_strdup("Salut"));
-}*/

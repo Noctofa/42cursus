@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 16:23:45 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/06 15:32:52 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:38:16 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main()
-{
-	printf("%d", ft_isalnum('5'));
-	return(0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 14:59:30 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/24 14:40:51 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:44:27 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
-/*
- *int    main(void)
- *{
- 	char    dest[40] = "";
- * 	char    src[] = "";
- * 	size_t    size;
- *
- * 	size = 8;
- * 	printf("%d\n", ft_strlcpy(dest, src, size));
- * 	printf("%lu", strlcpy(dest, src, size));
- * 	return (0);
- *}*/

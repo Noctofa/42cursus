@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/06 15:00:36 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/24 15:36:55 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:47:13 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,14 +25,3 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (NULL);
 }
-/*
-int	main()
-{
-	char	*str = "hello";
-	int		c = 'h';
-
-	printf("%s", ft_strrchr(str, c));
-	printf("\n");
-	printf("%s", strrchr(str, c));
-	return (0);
-}*/

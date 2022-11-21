@@ -6,7 +6,7 @@
 /*   By: sgaspard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 15:06:09 by sgaspard          #+#    #+#             */
-/*   Updated: 2022/10/24 14:33:06 by sgaspard         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:39:18 by sgaspard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*
-int main () {
-   const char src[5] = "ouin";
-   char dest[4] = "non";
-   printf("Before ft_memcpy dest = %s\n", dest);
-   ft_memcpy(dest, src, 2);
-   printf("After ft_memcpy dest = %s\n", dest);
-
-   return(0);
-}*/
